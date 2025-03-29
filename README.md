@@ -1,11 +1,20 @@
 
+
+
 ### Tools included
 
-* iputils-ping
-* mtr
-* iproute2
-* tcpdump
+* curl
 * dnsutils
-* netcat-openbsd
-* nano
+* iproute2
+* iputils-ping
+* iputils-tracepath
 * less
+* mtr
+* nano
+* net-tools
+* netcat-openbsd
+* nmap
+* openssh-client
+* tcpdump
+* traceroute
+* wget
