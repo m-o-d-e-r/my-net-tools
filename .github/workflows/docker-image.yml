@@ -25,4 +25,4 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
-        tags: ${{ vars.DOCKERHUB_USERNAME }}/my-net-tools:$(date +%y.%m.%d).${{ github.run_number }}
+        tags: ${{ vars.DOCKERHUB_USERNAME }}/my-net-tools:${{ format('{0}.{1}', github.event.head_commit.timestamp || github.run_id, github.run_number) }}
