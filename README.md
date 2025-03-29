@@ -10,6 +10,7 @@
 * iproute2
 * iputils-ping
 * iputils-tracepath
+* jq
 * less
 * mtr
 * nano
