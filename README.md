@@ -1,31 +1,36 @@
+# My Net Tools
+
+A collection of essential networking tools packaged together.
+
+📌 **GitHub Repository:** [m-o-d-e-r/my-net-tools](https://github.com/m-o-d-e-r/my-net-tools)
+
+## 📦 Included Tools
+
+| Tool               | Description                                      |
+|--------------------|--------------------------------------------------|
+| `curl`            | Transfers data from or to a server               |
+| `dnsutils`        | DNS query utilities (`nslookup`, `dig`)          |
+| `file`            | Determines file type                             |
+| `inetutils-ftp`   | Basic FTP client                                 |
+| `iproute2`        | IP networking utilities (`ip`, `ss`)             |
+| `iputils-ping`    | Network connectivity testing (`ping`)            |
+| `iputils-tracepath` | Traces network paths (`tracepath`)             |
+| `jq`               | A command-line tool for parsing and manipulating JSON data |
+| `less`            | View file contents interactively                 |
+| `mtr`             | Combines `ping` and `traceroute`                 |
+| `nano`            | Simple command-line text editor                  |
+| `net-tools`       | Legacy network utilities (`ifconfig`)            |
+| `netcat-openbsd`  | TCP/UDP connection testing tool (`nc`)           |
+| `nmap`            | Network scanner and security auditor             |
+| `openssh-client`  | SSH client for remote access                     |
+| `p7zip-full`      | 7-Zip archive tool                               |
+| `tcpdump`         | Packet sniffer and network traffic analyzer      |
+| `traceroute`      | Traces the route packets take to a host          |
+| `wget`            | Retrieves files from the web                     |
+| `zip`             | Compresses files into `.zip` archives            |
 
 
-
-### Tools included
-
-* curl
-* dnsutils
-* file
-* inetutils-ftp 
-* iproute2
-* iputils-ping
-* iputils-tracepath
-* jq
-* less
-* mtr
-* nano
-* net-tools
-* netcat-openbsd
-* nmap
-* openssh-client
-* p7zip-full
-* tcpdump
-* traceroute
-* wget
-* zip
-
-
-### Usage
+## Usage
 
 ```bash
 docker run --rm -it luckymode/my-net-tools

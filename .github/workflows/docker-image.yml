@@ -32,3 +32,16 @@ jobs:
         tags: |
           ${{ vars.DOCKERHUB_USERNAME }}/my-net-tools:${{ env.BUILD_DATE }}-${{ github.run_number }}
           ${{ vars.DOCKERHUB_USERNAME }}/my-net-tools:latest
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y jq curl
+
+    - name: Run update script
+      env:
+        DOCKERHUB_USERNAME: ${{ vars.DOCKERHUB_USERNAME }}
+        DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+      run: |
+        chmod +x scripts/*
+        ./scripts/update_overview.sh
