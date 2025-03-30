@@ -3,6 +3,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt update && \
     apt install -y \
+        bash-completion \
         curl \
         dnsutils \
         file \
@@ -25,6 +26,7 @@ RUN apt update && \
         zip && \
     rm -rf /var/lib/apt/lists/*
 
-RUN ln -s `which python3` /usr/bin/python
-
 COPY ./templates/.bash_aliases ./templates/.bashrc /root/
+
+RUN ln -s `which python3` /usr/bin/python && \
+    cat /etc/profile.d/bash_completion.sh >> ~/.bashrc

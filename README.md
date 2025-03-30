@@ -8,6 +8,7 @@ A collection of essential networking tools packaged together.
 
 | Tool               | Description                                      |
 |--------------------|--------------------------------------------------|
+| `bash-completion` | Enhances command-line efficiency by auto-completing commands, options |
 | `curl`            | Transfers data from or to a server               |
 | `dnsutils`        | DNS query utilities (`nslookup`, `dig`)          |
 | `file`            | Determines file type                             |
