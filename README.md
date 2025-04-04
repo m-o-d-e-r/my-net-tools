@@ -18,6 +18,7 @@ A collection of essential networking tools packaged together.
 | `iputils-tracepath` | Traces network paths (`tracepath`)             |
 | `jq`               | A command-line tool for parsing and manipulating JSON data |
 | `less`            | View file contents interactively                 |
+| `locales`         | Generate and configure language and region settings |
 | `mtr`             | Combines `ping` and `traceroute`                 |
 | `nano`            | Simple command-line text editor                  |
 | `net-tools`       | Legacy network utilities (`ifconfig`)            |
