@@ -17,11 +17,12 @@ RUN apt update && \
         locales \
         mtr \
         nano \
-        net-tools \
         netcat-openbsd \
+        net-tools \
         nmap \
         openssh-client \
         p7zip-full \
+        rsync \
         tcpdump \
         traceroute \
         wget \

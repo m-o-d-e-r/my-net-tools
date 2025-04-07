@@ -21,11 +21,12 @@ A collection of essential networking tools packaged together.
 | `locales`         | Generate and configure language and region settings |
 | `mtr`             | Combines `ping` and `traceroute`                 |
 | `nano`            | Simple command-line text editor                  |
-| `net-tools`       | Legacy network utilities (`ifconfig`)            |
 | `netcat-openbsd`  | TCP/UDP connection testing tool (`nc`)           |
+| `net-tools`       | Legacy network utilities (`ifconfig`)            |
 | `nmap`            | Network scanner and security auditor             |
 | `openssh-client`  | SSH client for remote access                     |
 | `p7zip-full`      | 7-Zip archive tool                               |
+| `rsync`             | Fast, versatile, remote (and local) file-copying tool            |
 | `tcpdump`         | Packet sniffer and network traffic analyzer      |
 | `traceroute`      | Traces the route packets take to a host          |
 | `wget`            | Retrieves files from the web                     |
