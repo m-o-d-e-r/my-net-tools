@@ -8,6 +8,7 @@ RUN apt update && \
         curl \
         dnsutils \
         file \
+        gpg \
         inetutils-ftp \
         iproute2 \
         iputils-ping \
