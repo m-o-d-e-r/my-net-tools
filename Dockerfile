@@ -27,6 +27,7 @@ RUN apt update && \
         tcpdump \
         traceroute \
         wget \
+        whois \
         zip && \
     rm -rf /var/lib/apt/lists/*
 

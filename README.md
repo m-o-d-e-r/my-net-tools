@@ -31,6 +31,7 @@ A collection of essential networking tools packaged together.
 | `tcpdump`           | Packet sniffer and network traffic analyzer                           |
 | `traceroute`        | Traces the route packets take to a host                               |
 | `wget`              | Retrieves files from the web                                          |
+| `whois`             | Client for the whois directory service                                |
 | `zip`               | Compresses files into `.zip` archives                                 |
 
 
