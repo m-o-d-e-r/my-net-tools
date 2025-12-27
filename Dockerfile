@@ -1,9 +1,9 @@
-FROM ubuntu:25.04
+FROM debian:13-slim
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LC_ALL=en_US.UTF-8
 
 RUN apt update && \
-    apt install -y \
+    apt install -y --no-install-recommends \
         bash-completion \
         curl \
         dnsutils \
@@ -29,6 +29,7 @@ RUN apt update && \
         wget \
         whois \
         zip && \
+    apt clean && \
     rm -rf /var/lib/apt/lists/*
 
 COPY ./templates/.bash_aliases ./templates/.bashrc /root/
