@@ -27,6 +27,7 @@ RUN apt update && \
         rsync \
         tcpdump \
         traceroute \
+        unzip \
         wget \
         whois \
         zip && \
