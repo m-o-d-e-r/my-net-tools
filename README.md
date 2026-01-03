@@ -26,6 +26,7 @@ A collection of essential networking tools packaged together.
 | `net-tools`         | Legacy network utilities (`ifconfig`)                                 |
 | `nmap`              | Network scanner and security auditor                                  |
 | `openssh-client`    | SSH client for remote access                                          |
+| `openssl`           | OpenSSL is a tool for SSL/TLS protocols and cryptographic functions   |
 | `p7zip-full`        | 7-Zip archive tool                                                    |
 | `rsync`             | Fast, versatile, remote (and local) file-copying tool                 |
 | `tcpdump`           | Packet sniffer and network traffic analyzer                           |

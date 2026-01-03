@@ -22,6 +22,7 @@ RUN apt update && \
         net-tools \
         nmap \
         openssh-client \
+        openssl \
         p7zip-full \
         rsync \
         tcpdump \
