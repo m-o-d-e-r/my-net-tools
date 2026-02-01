@@ -24,6 +24,7 @@ RUN apt update && \
         openssh-client \
         openssl \
         p7zip-full \
+        python3 \
         rsync \
         tcpdump \
         traceroute \
